@@ -1,0 +1,236 @@
+// ⚠ 这个文件不能直接引用，其中的字符串中特殊符号都是转义过的，为了方便作为模板嵌入目标文件
+
+#include <memory.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+static inline void match_skip(const char* text, int len, int* k) {
+    for (; *k < len; (*k)++) {
+        char c = text[*k];
+        if (c == ' ' || c == '\\n' || c == '\\r' || c == '\\t') {
+            continue;
+        } else {
+            return;
+        }
+    }
+}
+
+static inline int match_word(const char* text, int len, int* k, const char* word) {
+    match_skip(text, len, k);
+    int i = *k;
+    int word_len = strlen(word);
+    if (i >= len || i + word_len >= len) {
+        return -1;
+    }
+    if (strncmp(text + i, word, word_len) == 0) {
+        i += word_len;
+        *k = i;
+        return 1;
+    }
+    return -1;
+}
+
+static inline int match_char(const char* text, int len, int* k, char c) {
+    match_skip(text, len, k);
+    if (text[*k] == c) {
+        (*k)++;
+        return 1;
+    }
+    return -1;
+}
+
+static inline int match_string(const char* text, int len, int* k, char* str, int str_len) {
+    match_skip(text, len, k);
+    int i = *k;
+    if (i >= len || text[i++] != '\"') {
+        return -1;
+    }
+    int p = 0;
+    while (i < len) {
+        if (text[i] == '\"') {
+            if (text[i - 1] == '\\\\') {
+                str[p - 1] = '\"';
+            } else {
+                break;
+            }
+        } else {
+            if (p + 1 >= str_len) {
+                return -1;
+            }
+            str[p++] = text[i];
+        }
+        ++i;
+    }
+    if (text[i++] != '\"') {
+        return -1;
+    }
+    str[p] = 0;
+    *k = i;
+    return 1;
+}
+
+static inline int match_float(const char* text, int len, int* k, double* num) {
+    match_skip(text, len, k);
+    int i = *k;
+    char result[32];
+    int p = 0;
+    while (i < len) {
+        char c = text[i];
+        if ((c >= '0' && c <= '9') || c == '-' || c == '.' || c == 'e') {
+            if (p > 31) {
+                return -1;
+            }
+            result[p++] = text[i];
+        } else {
+            break;
+        }
+        i++;
+    }
+    if (p == 0) {
+        return -1;
+    }
+    result[p] = 0;
+    *num = atof(result);
+    *k = i;
+    return 1;
+}
+
+static inline int match_integer(const char* text, int len, int* k, long long int* num) {
+    match_skip(text, len, k);
+    int i = *k;
+    char result[32];
+    int p = 0;
+    while (i < len) {
+        char c = text[i];
+        if ((c >= '0' && c <= '9') || c == '-' || c == 'e') {
+            if (p > 31) {
+                return -1;
+            }
+            result[p++] = text[i];
+        } else {
+            break;
+        }
+        i++;
+    }
+    if (p == 0) {
+        return -1;
+    }
+    result[p] = 0;
+    *num = atoll(result);
+    *k = i;
+    return 1;
+}
+
+static inline int flush_string(char* text, int len, const char* data) {
+    int count = 2;
+    for (int i = 0;; i++) {
+        if (data[i] == 0) {
+            break;
+        }
+        if (data[i] == '\"') {
+            count += 2;
+        } else {
+            count += 1;
+        }
+    }
+    if (count > len) {
+        return -1;
+    }
+    int k = 0;
+    text[k++] = '\"';
+    for (int i = 0;; i++) {
+        if (data[i] == 0) {
+            break;
+        }
+        if (data[i] == '\"') {
+            text[k++] = '\\\\';
+            text[k++] = '\"';
+        } else {
+            text[k++] = data[i];
+        }
+    }
+    text[k++] = '\"';
+    return k;
+}
+
+static inline int skip_value(const char* text, int len, int* out) {
+    int i = *out;
+    long long int num;
+    int ret = match_integer(text, len, &i, &num);
+    if (ret > 0) {
+        *out = i;
+        return 1;
+    }
+    double dnum;
+    ret = match_float(text, len, &i, &dnum);
+    if (ret > 0) {
+        *out = i;
+        return 1;
+    }
+    static char tmp[1024 * 10];
+    ret = match_string(text, len, &i, tmp, sizeof(tmp));
+    if (ret > 0) {
+        *out = i;
+        return 1;
+    }
+    if (match_char(text, len, &i, '{') > 0) {
+        if (match_char(text, len, &i, '}') >= 0) {
+            *out = i;
+            return 1;
+        }
+        int first1 = 1;
+        while (1) {
+            char key1[1024];
+            if (!first1) {
+                if (match_char(text, len, &i, ',') < 0) {
+                    break;
+                }
+                if (match_string(text, len, &i, key1, 1024) < 0) {
+                    return -1;
+                }
+            } else {
+                first1 = 0;
+                if (match_string(text, len, &i, key1, 1024) < 0) {
+                    break;
+                }
+            }
+            if (match_char(text, len, &i, ':') < 0) {
+                return -1;
+            }
+            if (skip_value(text, len, &i) < 0) {
+                return -1;
+            }
+        }
+        if (match_char(text, len, &i, '}') < 0) {
+            return -1;
+        }
+        *out = i;
+        return 1;
+    }
+    if (match_char(text, len, &i, '[') > 0) {
+        if (match_char(text, len, &i, ']') >= 0) {
+            *out = i;
+            return 1;
+        }
+        int first3 = 1;
+        while (1) {
+            if (!first3) {
+                if (match_char(text, len, &i, ',') < 0) {
+                    break;
+                }
+            } else {
+                first3 = 0;
+            }
+            if (skip_value(text, len, &i) < 0) {
+                return -1;
+            }
+        }
+        if (match_char(text, len, &i, ']') < 0) {
+            return -1;
+        }
+        *out = i;
+        return 1;
+    }
+    return -1;
+}

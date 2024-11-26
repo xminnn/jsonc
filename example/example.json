@@ -1,0 +1,24 @@
+{
+    "type": 1,
+    "info": {
+        "a": 1
+    },
+    "std": {
+        "source": {
+            "math": 1,
+            "other": [
+                1,
+                2
+            ],
+            "add": []
+        },
+        "freinds": [
+            {
+                "name": "123",
+                "source": 1,
+                "source2": 1.12,
+                "d": 212232
+            }
+        ]
+    }
+}

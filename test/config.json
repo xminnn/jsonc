@@ -1,0 +1,6906 @@
+{
+    "tips": [
+        {
+            "id": 1001,
+            "type": [
+                3
+            ],
+            "time": 3,
+            "template": "登录密码错误"
+        },
+        {
+            "id": 1002,
+            "type": [
+                3
+            ],
+            "time": 3,
+            "template": "登录失败"
+        },
+        {
+            "id": 1003,
+            "type": [
+                3
+            ],
+            "time": 3,
+            "template": "服务器维护中"
+        },
+        {
+            "id": 1004,
+            "type": [
+                3
+            ],
+            "time": 3,
+            "template": "服务器已满，请稍后再试"
+        },
+        {
+            "id": 1005,
+            "type": [
+                3
+            ],
+            "time": 3,
+            "template": "服务器维护中"
+        },
+        {
+            "id": 1006,
+            "type": [
+                3
+            ],
+            "time": 3,
+            "template": "服务器即将进行维护"
+        },
+        {
+            "id": 2001,
+            "type": [
+                1,
+                2
+            ],
+            "time": 3,
+            "template": "获得$(item)x$num"
+        },
+        {
+            "id": 2002,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "缺少$(item)x$num"
+        },
+        {
+            "id": 2003,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "使用$(item)x$num"
+        },
+        {
+            "id": 2004,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "DJ数据错误"
+        },
+        {
+            "id": 2005,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "背包已满，请到邮箱中查看未进入背包的DJ"
+        },
+        {
+            "id": 3001,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "等级不满足"
+        },
+        {
+            "id": 3002,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "恭喜升级! 当前等级$num"
+        },
+        {
+            "id": 3003,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "获得经验$num"
+        },
+        {
+            "id": 4001,
+            "type": [
+                1
+            ],
+            "time": 3,
+            "template": "收到一封邮件"
+        }
+    ],
+    "task_mainline": [
+        {
+            "id": 1,
+            "condition": 501001,
+            "reward_id": 5001
+        },
+        {
+            "id": 2,
+            "condition": 501002,
+            "reward_id": 5002
+        },
+        {
+            "id": 3,
+            "condition": 501003,
+            "reward_id": 5003
+        },
+        {
+            "id": 4,
+            "condition": 501004,
+            "reward_id": 5004
+        }
+    ],
+    "global_params": [
+        {
+            "id": 1,
+            "param2": [
+                1704038400,
+                86400
+            ]
+        },
+        {
+            "id": 2,
+            "param2": [
+                1704038400,
+                604800
+            ]
+        },
+        {
+            "id": 101,
+            "param1": [
+                1,
+                100
+            ]
+        },
+        {
+            "id": 102,
+            "param1": [
+                1,
+                100
+            ]
+        }
+    ],
+    "function": [],
+    "map_element": [
+        {
+            "id": 1,
+            "name": "1级怪物",
+            "type": 3,
+            "level": 1,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 3,
+                "max": 4
+            }
+        },
+        {
+            "id": 2,
+            "name": "2级怪物",
+            "type": 3,
+            "level": 2,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 1,
+                "max": 3
+            }
+        },
+        {
+            "id": 3,
+            "name": "3级怪物",
+            "type": 3,
+            "level": 3,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 1,
+                "max": 3
+            }
+        },
+        {
+            "id": 4,
+            "name": "4级怪物",
+            "type": 3,
+            "level": 4,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 1,
+                "max": 3
+            }
+        },
+        {
+            "id": 5,
+            "name": "5级怪物",
+            "type": 3,
+            "level": 5,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 6,
+            "name": "6级怪物",
+            "type": 3,
+            "level": 6,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 7,
+            "name": "7级怪物",
+            "type": 3,
+            "level": 7,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 8,
+            "name": "8级怪物",
+            "type": 3,
+            "level": 8,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 9,
+            "name": "9级怪物",
+            "type": 3,
+            "level": 9,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 10,
+            "name": "10级怪物",
+            "type": 3,
+            "level": 10,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 11,
+            "name": "11级怪物",
+            "type": 3,
+            "level": 11,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        {
+            "id": 12,
+            "name": "12级怪物",
+            "type": 3,
+            "level": 12,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        {
+            "id": 13,
+            "name": "13级怪物",
+            "type": 3,
+            "level": 13,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        {
+            "id": 14,
+            "name": "14级怪物",
+            "type": 3,
+            "level": 14,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                102
+            ],
+            "res_max": [
+                3000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                300
+            ],
+            "res_rate": [
+                10000
+            ],
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        {
+            "id": 101,
+            "name": "1级LS ZYD",
+            "type": 4,
+            "level": 1,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 3,
+                "max": 4
+            }
+        },
+        {
+            "id": 102,
+            "name": "2级LS ZYD",
+            "type": 4,
+            "level": 2,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 1,
+                "max": 3
+            }
+        },
+        {
+            "id": 103,
+            "name": "3级LS ZYD",
+            "type": 4,
+            "level": 3,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 1,
+                "max": 3
+            }
+        },
+        {
+            "id": 104,
+            "name": "4级LS ZYD",
+            "type": 4,
+            "level": 4,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 1,
+                "max": 3
+            }
+        },
+        {
+            "id": 105,
+            "name": "5级LS ZYD",
+            "type": 4,
+            "level": 5,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 106,
+            "name": "6级LS ZYD",
+            "type": 4,
+            "level": 6,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 107,
+            "name": "7级LS ZYD",
+            "type": 4,
+            "level": 7,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 108,
+            "name": "8级LS ZYD",
+            "type": 4,
+            "level": 8,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 109,
+            "name": "9级LS ZYD",
+            "type": 4,
+            "level": 9,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 110,
+            "name": "10级LS ZYD",
+            "type": 4,
+            "level": 10,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "id": 111,
+            "name": "11级LS ZYD",
+            "type": 4,
+            "level": 11,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        {
+            "id": 112,
+            "name": "12级LS ZYD",
+            "type": 4,
+            "level": 12,
+            "troop": [
+                {
+                    "type": 21,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        {
+            "id": 113,
+            "name": "13级LS ZYD",
+            "type": 4,
+            "level": 13,
+            "troop": [
+                {
+                    "type": 22,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        {
+            "id": 114,
+            "name": "14级LS ZYD",
+            "type": 4,
+            "level": 14,
+            "troop": [
+                {
+                    "type": 23,
+                    "num": 100
+                }
+            ],
+            "attr": [
+                101,
+                102
+            ],
+            "attr_val": [
+                10,
+                10
+            ],
+            "res": [
+                3
+            ],
+            "res_max": [
+                10000
+            ],
+            "res_make": [
+                1
+            ],
+            "res_unin": [
+                1
+            ],
+            "res_rate": [
+                10000
+            ],
+            "rebattle": {
+                "times": 3,
+                "cooldown": 300
+            },
+            "num_for_block": {
+                "min": 0,
+                "max": 1
+            }
+        }
+    ],
+    "reward": [
+        {
+            "id": 1,
+            "name": "小袋ZS",
+            "items": [
+                1
+            ],
+            "nums": [
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "小袋经验",
+            "items": [
+                2,
+                2
+            ],
+            "nums": [
+                {
+                    "min": 100,
+                    "max": 200
+                },
+                {
+                    "min": 1000,
+                    "max": 2000
+                }
+            ],
+            "weights": [
+                9,
+                1
+            ],
+            "weights_times": 1,
+            "weights_repeatable": 0
+        },
+        {
+            "id": 1001,
+            "items": [
+                1,
+                3,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 10,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 1002,
+            "items": [
+                1,
+                5,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 20,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 1003,
+            "items": [
+                1,
+                3,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 20,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 1004,
+            "items": [
+                1,
+                5,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 10,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 2001,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 2002,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 2003,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 2004,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3001,
+            "items": [
+                1,
+                3,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 10,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3002,
+            "items": [
+                1,
+                5,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 20,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3003,
+            "items": [
+                1,
+                3,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 20,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3004,
+            "items": [
+                1,
+                5,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 10,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3101,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3102,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3103,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 3104,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4001,
+            "items": [
+                1,
+                3,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 10,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4002,
+            "items": [
+                1,
+                5,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 20,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4003,
+            "items": [
+                1,
+                3,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 20,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4004,
+            "items": [
+                1,
+                5,
+                12,
+                102
+            ],
+            "nums": [
+                {
+                    "min": 2,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                },
+                {
+                    "min": 10,
+                    "max": 0
+                },
+                {
+                    "min": 1,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4101,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4102,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4103,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 4104,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 5001,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 5002,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 5003,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 5004,
+            "items": [
+                1,
+                5
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 6001,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 6002,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 6003,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 6004,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 6005,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 6006,
+            "items": [
+                1,
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1,
+                    "max": 0
+                },
+                {
+                    "min": 100,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7001,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7002,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7003,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7004,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7005,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7006,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7007,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7008,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7009,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7010,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7011,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7012,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7013,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7014,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7015,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7016,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7017,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7018,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7019,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7020,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7021,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7022,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7023,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        },
+        {
+            "id": 7024,
+            "items": [
+                3
+            ],
+            "nums": [
+                {
+                    "min": 1000,
+                    "max": 0
+                }
+            ]
+        }
+    ],
+    "attr": [
+        {
+            "id": 1,
+            "name": "全体ZD获取百分比加成",
+            "max": 2000,
+            "vtype": 1
+        },
+        {
+            "id": 2,
+            "name": "MCZD获取加成",
+            "max": 2000,
+            "vtype": 1
+        },
+        {
+            "id": 3,
+            "name": "SWZD获取加成",
+            "max": 2000,
+            "vtype": 1
+        },
+        {
+            "id": 4,
+            "name": "矿石ZD获取速度加成",
+            "max": 2000,
+            "vtype": 1
+        },
+        {
+            "id": 5,
+            "name": "挂机时间上限(秒)",
+            "max": 86400
+        },
+        {
+            "id": 11,
+            "name": "挂机LS速度(每分钟)",
+            "max": 9999999999
+        },
+        {
+            "id": 12,
+            "name": "挂机ZS速度(每小时)",
+            "max": 9999999999
+        },
+        {
+            "id": 13,
+            "name": "挂机矿产速度(每分钟)",
+            "max": 9999999999
+        },
+        {
+            "id": 14,
+            "name": "挂机MC速度(每分钟)",
+            "max": 9999999999
+        },
+        {
+            "id": 15,
+            "name": "挂机ZS包(每小时)",
+            "max": 999
+        },
+        {
+            "id": 21,
+            "name": "挂机LS速度百分比加成",
+            "max": 1000,
+            "vtype": 1,
+            "vper_tar": 11
+        },
+        {
+            "id": 22,
+            "name": "挂机ZS速度百分比加成",
+            "max": 1000,
+            "vtype": 1,
+            "vper_tar": 12
+        },
+        {
+            "id": 23,
+            "name": "挂机矿产速度百分比加成",
+            "max": 1000,
+            "vtype": 1,
+            "vper_tar": 13
+        },
+        {
+            "id": 24,
+            "name": "挂机MC速度百分比加成",
+            "max": 1000,
+            "vtype": 1,
+            "vper_tar": 14
+        },
+        {
+            "id": 101,
+            "name": "生命"
+        },
+        {
+            "id": 102,
+            "name": "攻击"
+        },
+        {
+            "id": 103,
+            "name": "防御"
+        },
+        {
+            "id": 104,
+            "name": "攻击加成"
+        },
+        {
+            "id": 105,
+            "name": "生命加成"
+        },
+        {
+            "id": 106,
+            "name": "防御加成"
+        },
+        {
+            "id": 107,
+            "name": "格挡概率"
+        },
+        {
+            "id": 108,
+            "name": "暴击率"
+        },
+        {
+            "id": 109,
+            "name": "暴击伤害"
+        },
+        {
+            "id": 110,
+            "name": "JD移动速度"
+        },
+        {
+            "id": 111,
+            "name": "JD攻击速度"
+        },
+        {
+            "id": 201,
+            "name": "JD CSK移动距离",
+            "max": 999999
+        },
+        {
+            "id": 202,
+            "name": "JD CSK移动距离加成",
+            "max": 100,
+            "vtype": 1,
+            "vper_tar": 201
+        }
+    ],
+    "building_active": [
+        {
+            "id": 1,
+            "where": 1,
+            "limit": [
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "where": 1,
+            "limit": [
+                2
+            ]
+        },
+        {
+            "id": 3,
+            "where": 1,
+            "limit": [
+                3
+            ]
+        },
+        {
+            "id": 4,
+            "where": 1
+        },
+        {
+            "id": 5,
+            "where": 1
+        },
+        {
+            "id": 6,
+            "where": 1
+        }
+    ],
+    "building_attr_pool": [
+        {
+            "id": 1,
+            "name": "ZC主属性",
+            "atts": [
+                101,
+                102
+            ],
+            "weigts": [
+                1,
+                1
+            ],
+            "init_range": [
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                }
+            ],
+            "up_range": [
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ZC次属性",
+            "atts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "weigts": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "init_range": [
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                }
+            ],
+            "up_range": [
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "防御主属性",
+            "atts": [
+                101,
+                102
+            ],
+            "weigts": [
+                1,
+                1
+            ],
+            "init_range": [
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                }
+            ],
+            "up_range": [
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "防御次属性",
+            "atts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "weigts": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "init_range": [
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                }
+            ],
+            "up_range": [
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "A主属性",
+            "atts": [
+                101,
+                102
+            ],
+            "weigts": [
+                1,
+                1
+            ],
+            "init_range": [
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                }
+            ],
+            "up_range": [
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "A次属性",
+            "atts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "weigts": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "init_range": [
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                },
+                {
+                    "min": 100,
+                    "max": 100
+                }
+            ],
+            "up_range": [
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 10
+                }
+            ]
+        }
+    ],
+    "building_certificate": [
+        {
+            "id": 1,
+            "name": "ZC BUILD券",
+            "building_type": 1,
+            "quality": 5,
+            "main_attr_pool": 1,
+            "main_level": [
+                1,
+                5
+            ],
+            "main_weight": [
+                10,
+                10
+            ],
+            "second_attr_pool": 2,
+            "second_level": [
+                1,
+                5,
+                10,
+                15
+            ],
+            "second_weight": [
+                10,
+                10,
+                10,
+                10
+            ],
+            "max_level": 30,
+            "init_level": [
+                1,
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "name": "防御 BUILD券",
+            "building_type": 2,
+            "quality": 5,
+            "main_attr_pool": 3,
+            "main_level": [
+                1,
+                5
+            ],
+            "main_weight": [
+                10,
+                10
+            ],
+            "second_attr_pool": 4,
+            "second_level": [
+                1,
+                5,
+                10,
+                15
+            ],
+            "second_weight": [
+                10,
+                10,
+                10,
+                10
+            ],
+            "max_level": 30,
+            "init_level": [
+                1,
+                1
+            ]
+        },
+        {
+            "id": 3,
+            "name": "A击 BUILD券",
+            "building_type": 3,
+            "quality": 5,
+            "main_attr_pool": 5,
+            "main_level": [
+                1,
+                5
+            ],
+            "main_weight": [
+                10,
+                10
+            ],
+            "second_attr_pool": 6,
+            "second_level": [
+                1,
+                5,
+                10,
+                15
+            ],
+            "second_weight": [
+                10,
+                10,
+                10,
+                10
+            ],
+            "max_level": 30,
+            "init_level": [
+                1,
+                1
+            ]
+        }
+    ],
+    "building_level": [
+        {
+            "level": 1,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 11,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 11,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 11,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 11,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 11,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 12,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 12,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 12,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 12,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 12,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 13,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 13,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 13,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 13,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 13,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 14,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 14,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 14,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 14,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 14,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 15,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 15,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 15,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 15,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 15,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 16,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 16,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 16,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 16,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 16,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 17,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 17,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 17,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 17,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 17,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 18,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 18,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 18,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 18,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 18,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 19,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 19,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 19,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 19,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 19,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 20,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 20,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 20,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 20,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 20,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 21,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 21,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 21,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 21,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 21,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 22,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 22,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 22,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 22,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 22,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 23,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 23,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 23,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 23,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 23,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 24,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 24,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 24,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 24,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 24,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 25,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 25,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 25,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 25,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 25,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 26,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 26,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 26,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 26,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 26,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 27,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 27,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 27,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 27,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 27,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 28,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 28,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 28,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 28,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 28,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 29,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 29,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 29,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 29,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 29,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 30,
+            "quality": 1,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 30,
+            "quality": 2,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 30,
+            "quality": 3,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 30,
+            "quality": 4,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        },
+        {
+            "level": 30,
+            "quality": 5,
+            "up_cost": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ],
+            "destroy_get": [
+                {
+                    "item": 1,
+                    "num": 3
+                }
+            ]
+        }
+    ],
+    "building_type": [
+        {
+            "id": 1,
+            "name": "主要",
+            "own_max": 1,
+            "can_recover": 1
+        },
+        {
+            "id": 2,
+            "name": "防御",
+            "own_max": 2,
+            "can_destroy": 1,
+            "can_recover": 1
+        },
+        {
+            "id": 3,
+            "name": "A",
+            "own_max": 2,
+            "can_destroy": 1,
+            "can_recover": 1
+        },
+        {
+            "id": 4,
+            "name": "B",
+            "own_max": 2,
+            "can_destroy": 1,
+            "can_recover": 1
+        },
+        {
+            "id": 5,
+            "name": "C",
+            "own_max": 2,
+            "can_destroy": 1,
+            "can_recover": 1
+        },
+        {
+            "id": 6,
+            "name": "金币",
+            "own_max": 2,
+            "can_destroy": 1,
+            "can_recover": 1
+        },
+        {
+            "id": 7,
+            "name": "KW",
+            "own_max": 2,
+            "can_destroy": 1
+        },
+        {
+            "id": 8,
+            "name": "SW",
+            "own_max": 2,
+            "can_destroy": 1
+        },
+        {
+            "id": 9,
+            "name": "MC",
+            "own_max": 2,
+            "can_destroy": 1
+        },
+        {
+            "id": 10,
+            "name": "天文",
+            "own_max": 2,
+            "can_destroy": 1
+        },
+        {
+            "id": 11,
+            "name": "指挥",
+            "own_max": 3,
+            "can_destroy": 1
+        }
+    ],
+    "achivement": [
+        {
+            "id": 1,
+            "condition": 350001,
+            "reward_id": 2001
+        },
+        {
+            "id": 2,
+            "condition": 350002,
+            "reward_id": 2002
+        },
+        {
+            "id": 3,
+            "condition": 350003,
+            "reward_id": 2003
+        },
+        {
+            "id": 4,
+            "condition": 350004,
+            "reward_id": 2004
+        }
+    ],
+    "hungup": [
+        {
+            "id": 1,
+            "attr": 11,
+            "attr_add": 21,
+            "item_get": 3,
+            "cycle": 60
+        },
+        {
+            "id": 2,
+            "attr": 12,
+            "attr_add": 22,
+            "item_get": 1,
+            "cycle": 3600
+        },
+        {
+            "id": 3,
+            "attr": 13,
+            "attr_add": 23,
+            "item_get": 4,
+            "cycle": 60
+        },
+        {
+            "id": 4,
+            "attr": 14,
+            "attr_add": 24,
+            "item_get": 5,
+            "cycle": 60
+        },
+        {
+            "id": 5,
+            "attr": 15,
+            "item_get": 101,
+            "cycle": 3600
+        }
+    ],
+    "horoscope": [
+        {
+            "id": 1,
+            "name": "A1"
+        },
+        {
+            "id": 2,
+            "name": "A2"
+        },
+        {
+            "id": 3,
+            "name": "A3"
+        }
+    ],
+    "horoscope_pool": [
+        {
+            "id": 1,
+            "type": 1,
+            "attrs": [
+                104,
+                105
+            ],
+            "vals": [
+                5,
+                5
+            ]
+        },
+        {
+            "id": 2,
+            "type": 2,
+            "attrs": [
+                104,
+                105
+            ],
+            "vals": [
+                2,
+                2
+            ]
+        },
+        {
+            "id": 3,
+            "type": 3,
+            "attrs": [
+                104,
+                105
+            ],
+            "vals": [
+                -1,
+                -1
+            ]
+        }
+    ],
+    "condition": [
+        {
+            "id": 202001,
+            "desc": "看广告1次",
+            "condition_type": 2,
+            "condition_times": 1
+        },
+        {
+            "id": 202002,
+            "desc": "看广告2次",
+            "condition_type": 2,
+            "condition_times": 2
+        },
+        {
+            "id": 202003,
+            "desc": "看广告3次",
+            "condition_type": 2,
+            "condition_times": 3
+        },
+        {
+            "id": 202004,
+            "desc": "看广告15次",
+            "condition_type": 2,
+            "condition_times": 15
+        },
+        {
+            "id": 202005,
+            "desc": "看广告20次",
+            "condition_type": 2,
+            "condition_times": 20
+        },
+        {
+            "id": 202006,
+            "desc": "看广告40次",
+            "condition_type": 2,
+            "condition_times": 40
+        },
+        {
+            "id": 202007,
+            "desc": "看广告60次",
+            "condition_type": 2,
+            "condition_times": 60
+        },
+        {
+            "id": 202008,
+            "desc": "看广告80次",
+            "condition_type": 2,
+            "condition_times": 80
+        },
+        {
+            "id": 303001,
+            "use": "每日任务",
+            "desc": "获得ZS1个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 1
+        },
+        {
+            "id": 303002,
+            "use": "每日任务",
+            "desc": "获得ZS2个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 2
+        },
+        {
+            "id": 303003,
+            "use": "每日任务",
+            "desc": "获得ZS3个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 3
+        },
+        {
+            "id": 303004,
+            "use": "每日任务",
+            "desc": "获得ZS4个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 4
+        },
+        {
+            "id": 303101,
+            "use": "每日任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 10
+        },
+        {
+            "id": 303102,
+            "use": "每日任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 20
+        },
+        {
+            "id": 303103,
+            "use": "每日任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 30
+        },
+        {
+            "id": 303104,
+            "use": "每日任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 40
+        },
+        {
+            "id": 304001,
+            "use": "每周任务",
+            "desc": "获得ZS1个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 2
+        },
+        {
+            "id": 304002,
+            "use": "每周任务",
+            "desc": "获得ZS2个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 3
+        },
+        {
+            "id": 304003,
+            "use": "每周任务",
+            "desc": "获得ZS3个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 4
+        },
+        {
+            "id": 304004,
+            "use": "每周任务",
+            "desc": "获得ZS4个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 12
+        },
+        {
+            "id": 304101,
+            "use": "每周任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 10
+        },
+        {
+            "id": 304102,
+            "use": "每周任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 20
+        },
+        {
+            "id": 304103,
+            "use": "每周任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 30
+        },
+        {
+            "id": 304104,
+            "use": "每周任务点数",
+            "condition_type": 3,
+            "condtion_params": [
+                7
+            ],
+            "condition_times": 40
+        },
+        {
+            "id": 350001,
+            "use": "成就",
+            "desc": "获得ZS10个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 10
+        },
+        {
+            "id": 350002,
+            "use": "成就",
+            "desc": "获得ZS20个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 20
+        },
+        {
+            "id": 350003,
+            "use": "成就",
+            "desc": "获得ZS30个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 30
+        },
+        {
+            "id": 350004,
+            "use": "成就",
+            "desc": "获得ZS40个",
+            "condition_type": 3,
+            "condtion_params": [
+                1
+            ],
+            "condition_times": 40
+        },
+        {
+            "id": 501001,
+            "use": "主线",
+            "desc": "升到1级",
+            "condition_type": 1,
+            "condition_times": 1
+        },
+        {
+            "id": 501002,
+            "use": "主线",
+            "desc": "升到2级",
+            "condition_type": 1,
+            "condition_times": 2
+        },
+        {
+            "id": 501003,
+            "use": "主线",
+            "desc": "升到3级",
+            "condition_type": 1,
+            "condition_times": 3
+        },
+        {
+            "id": 501004,
+            "use": "主线",
+            "desc": "升到4级",
+            "condition_type": 1,
+            "condition_times": 4
+        }
+    ],
+    "condition_type": [
+        {
+            "id": 1,
+            "name": "升等级到",
+            "condition_type_type": 2
+        },
+        {
+            "id": 2,
+            "name": "看广告",
+            "condition_type_type": 1
+        },
+        {
+            "id": 3,
+            "name": "获得DJ",
+            "condition_type_type": 1
+        },
+        {
+            "id": 4,
+            "name": "拥有DJ",
+            "condition_type_type": 2
+        }
+    ],
+    "task_week": [
+        {
+            "id": 1,
+            "condition": 304001,
+            "reward_id": 4001
+        },
+        {
+            "id": 2,
+            "condition": 304002,
+            "reward_id": 4002
+        },
+        {
+            "id": 3,
+            "condition": 304003,
+            "reward_id": 4003
+        },
+        {
+            "id": 4,
+            "condition": 304004,
+            "reward_id": 4004
+        },
+        {
+            "id": 101,
+            "condition": 304101,
+            "reward_id": 4101,
+            "is_process": 1
+        },
+        {
+            "id": 102,
+            "condition": 304102,
+            "reward_id": 4102,
+            "is_process": 1
+        },
+        {
+            "id": 103,
+            "condition": 304103,
+            "reward_id": 4103,
+            "is_process": 1
+        },
+        {
+            "id": 104,
+            "condition": 304104,
+            "reward_id": 4104,
+            "is_process": 1
+        }
+    ],
+    "task_daily": [
+        {
+            "id": 1,
+            "condition": 303001,
+            "reward_id": 3001
+        },
+        {
+            "id": 2,
+            "condition": 303002,
+            "reward_id": 3002
+        },
+        {
+            "id": 3,
+            "condition": 303003,
+            "reward_id": 3003
+        },
+        {
+            "id": 4,
+            "condition": 303004,
+            "reward_id": 3004
+        },
+        {
+            "id": 101,
+            "condition": 303101,
+            "reward_id": 3101,
+            "is_process": 1
+        },
+        {
+            "id": 102,
+            "condition": 303102,
+            "reward_id": 3102,
+            "is_process": 1
+        },
+        {
+            "id": 103,
+            "condition": 303103,
+            "reward_id": 3103,
+            "is_process": 1
+        },
+        {
+            "id": 104,
+            "condition": 303104,
+            "reward_id": 3104,
+            "is_process": 1
+        }
+    ],
+    "user_init": [
+        {
+            "id": 1,
+            "type": 2,
+            "param": [
+                1,
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "type": 2,
+            "param": [
+                2,
+                2
+            ]
+        },
+        {
+            "id": 3,
+            "type": 2,
+            "param": [
+                3,
+                3
+            ]
+        },
+        {
+            "id": 4,
+            "type": 1,
+            "param": [
+                1,
+                100
+            ]
+        },
+        {
+            "id": 5,
+            "type": 1,
+            "param": [
+                21,
+                100
+            ]
+        },
+        {
+            "id": 6,
+            "type": 1,
+            "param": [
+                22,
+                100
+            ]
+        },
+        {
+            "id": 7,
+            "type": 1,
+            "param": [
+                23,
+                100
+            ]
+        }
+    ],
+    "alliance_param": [
+        {
+            "id": 1,
+            "params": [
+                86400
+            ]
+        },
+        {
+            "id": 2,
+            "params": [
+                10
+            ]
+        },
+        {
+            "id": 3,
+            "params": [
+                7200
+            ]
+        },
+        {
+            "id": 4,
+            "params": [
+                6,
+                100,
+                3,
+                100,
+                4,
+                100,
+                5,
+                100
+            ]
+        }
+    ],
+    "alliance_tech": [
+        {
+            "id": 1,
+            "name": "MC采集速度加成",
+            "lv": 1,
+            "weight": 100,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 10,
+                "max": 200
+            }
+        },
+        {
+            "id": 2,
+            "name": "SW采集速度加成1",
+            "lv": 1,
+            "weight": 100,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 30,
+                "max": 200
+            }
+        },
+        {
+            "id": 3,
+            "name": "SW采集速度加成2",
+            "lv": 2,
+            "weight": 60,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 60,
+                "max": 300
+            }
+        },
+        {
+            "id": 4,
+            "name": "SW采集速度加成3",
+            "lv": 3,
+            "weight": 40,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 100,
+                "max": 400
+            }
+        },
+        {
+            "id": 5,
+            "name": "SW采集速度加成4",
+            "lv": 4,
+            "weight": 20,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 200,
+                "max": 500
+            }
+        },
+        {
+            "id": 6,
+            "name": "SW采集速度加成5",
+            "lv": 5,
+            "weight": 20,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 300,
+                "max": 600
+            }
+        },
+        {
+            "id": 7,
+            "name": "SW采集速度加成6",
+            "lv": 6,
+            "weight": 20,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 400,
+                "max": 700
+            }
+        },
+        {
+            "id": 8,
+            "name": "SW采集速度加成7",
+            "lv": 7,
+            "weight": 10,
+            "attr_id": 2,
+            "attr_add": {
+                "min": 500,
+                "max": 800
+            }
+        }
+    ],
+    "alliance_lv": [
+        {
+            "id": 1,
+            "exp": 100,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        },
+        {
+            "id": 2,
+            "exp": 200,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        },
+        {
+            "id": 3,
+            "exp": 300,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        },
+        {
+            "id": 4,
+            "exp": 400,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        },
+        {
+            "id": 5,
+            "exp": 500,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        },
+        {
+            "id": 6,
+            "exp": 600,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        },
+        {
+            "id": 7,
+            "exp": 700,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        },
+        {
+            "id": 8,
+            "exp": 800,
+            "member_limit": 100,
+            "vice_limit": 2,
+            "office_limit": 3,
+            "tech_max_level": 8
+        }
+    ],
+    "role_level": [
+        {
+            "id": 1,
+            "exp": 20,
+            "reward": 7001,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "exp": 50,
+            "reward": 7002,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "exp": 80,
+            "reward": 7003,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "exp": 110,
+            "reward": 7004,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "exp": 140,
+            "reward": 7005,
+            "up_mail": 1,
+            "up_mail_reward": 6001,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "exp": 170,
+            "reward": 7006,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "exp": 200,
+            "reward": 7007,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "exp": 230,
+            "reward": 7008,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "exp": 260,
+            "reward": 7009,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "exp": 290,
+            "reward": 7010,
+            "up_mail": 1,
+            "up_mail_reward": 6002,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "exp": 320,
+            "reward": 7011,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "exp": 350,
+            "reward": 7012,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "exp": 380,
+            "reward": 7013,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "exp": 410,
+            "reward": 7014,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "exp": 440,
+            "reward": 7015,
+            "up_mail": 1,
+            "up_mail_reward": 6003,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "exp": 470,
+            "reward": 7016,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "exp": 500,
+            "reward": 7017,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "exp": 530,
+            "reward": 7018,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "exp": 560,
+            "reward": 7019,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "exp": 590,
+            "reward": 7020,
+            "up_mail": 1,
+            "up_mail_reward": 6004,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "exp": 620,
+            "reward": 7021,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "exp": 650,
+            "reward": 7022,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "exp": 680,
+            "reward": 7023,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "exp": 710,
+            "reward": 7024,
+            "up_mail": 1,
+            "up_mail_reward": 6005,
+            "lv_attr": [
+                {
+                    "attr": 11,
+                    "val": 1
+                },
+                {
+                    "attr": 12,
+                    "val": 1
+                },
+                {
+                    "attr": 13,
+                    "val": 1
+                },
+                {
+                    "attr": 14,
+                    "val": 1
+                }
+            ]
+        }
+    ],
+    "item": [
+        {
+            "id": 1,
+            "name": "ZS",
+            "type": 1,
+            "level": 4,
+            "icon": "/icon/canvas23.png",
+            "day_limit": 1000,
+            "limit": 1000,
+            "desc": "一种十分珍贵的用途广泛的资源"
+        },
+        {
+            "id": 2,
+            "name": "经验",
+            "type": 1,
+            "func": 2,
+            "level": 4,
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "升级需要的东西"
+        },
+        {
+            "id": 3,
+            "name": "LS",
+            "type": 1,
+            "level": 2,
+            "icon": "/icon/canvas2.png",
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "WG运营需要的基本WZ"
+        },
+        {
+            "id": 4,
+            "name": "矿石",
+            "type": 1,
+            "level": 2,
+            "icon": "/icon/canvas13.png",
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "WG运营需要的基本WZ"
+        },
+        {
+            "id": 5,
+            "name": "MC",
+            "type": 1,
+            "level": 2,
+            "icon": "/icon/canvas6.png",
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "WG运营需要的基本WZ"
+        },
+        {
+            "id": 11,
+            "name": "LM点数",
+            "type": 1,
+            "level": 2,
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "LM相关活动获得的资源"
+        },
+        {
+            "id": 12,
+            "name": "每日任务点数",
+            "type": 1,
+            "level": 2,
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "每日任务点数"
+        },
+        {
+            "id": 13,
+            "name": "每周任务点数",
+            "type": 1,
+            "level": 2,
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "每周任务点数"
+        },
+        {
+            "id": 21,
+            "name": "ZDJ1",
+            "type": 1,
+            "level": 2,
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "ZD可派出单位"
+        },
+        {
+            "id": 22,
+            "name": "ZDJ2",
+            "type": 1,
+            "level": 2,
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "ZD可派出单位"
+        },
+        {
+            "id": 23,
+            "name": "ZDJ3",
+            "type": 1,
+            "level": 2,
+            "day_limit": 99999999,
+            "limit": 99999999,
+            "desc": "ZD可派出单位"
+        },
+        {
+            "id": 101,
+            "name": "小袋ZS",
+            "type": 2,
+            "func": 1,
+            "func_params": [
+                1
+            ],
+            "level": 3,
+            "bag": 1,
+            "icon": "/icon/canvas23.png",
+            "day_limit": 99,
+            "limit": 99,
+            "desc": "幸运获得到的一小袋ZS"
+        },
+        {
+            "id": 102,
+            "name": "小经验包",
+            "type": 2,
+            "func": 1,
+            "func_params": [
+                2
+            ],
+            "level": 1,
+            "bag": 1,
+            "icon": "/icon/canvas23.png",
+            "day_limit": 9999,
+            "limit": 9999,
+            "desc": "用于升级的少量经验"
+        },
+        {
+            "id": 201,
+            "name": " BUILD券",
+            "type": 3,
+            "func": 3,
+            "func_params": [
+                1
+            ],
+            "auto_open": 1,
+            "level": 5,
+            "icon": "/icon/canvas23.png",
+            "day_limit": 1,
+            "limit": 1
+        },
+        {
+            "id": 202,
+            "name": "防御 BUILD券",
+            "type": 3,
+            "func": 3,
+            "func_params": [
+                2
+            ],
+            "auto_open": 1,
+            "level": 5,
+            "icon": "/icon/canvas23.png",
+            "day_limit": 1,
+            "limit": 1
+        },
+        {
+            "id": 203,
+            "name": "A击 BUILD券",
+            "type": 3,
+            "func": 3,
+            "func_params": [
+                3
+            ],
+            "auto_open": 1,
+            "level": 5,
+            "icon": "/icon/canvas23.png",
+            "day_limit": 1000,
+            "limit": 1000
+        }
+    ],
+    "item_background": [
+        {
+            "id": 1,
+            "path": "/icon/绿色DJ.png"
+        },
+        {
+            "id": 2,
+            "path": "/icon/蓝色DJ.png"
+        },
+        {
+            "id": 3,
+            "path": "/icon/红色DJ.png"
+        },
+        {
+            "id": 4,
+            "path": "/icon/红色DJ.png"
+        },
+        {
+            "id": 5,
+            "path": "/icon/紫色DJ.png"
+        }
+    ],
+    "item_get_way": [],
+    "mail": [
+        {
+            "id": 1,
+            "type": 1,
+            "title": "恭喜达成阶段性等级",
+            "simple": "等级",
+            "template": "恭喜升到{level}等级，请收下以下奖励",
+            "expire_time": 2592000
+        },
+        {
+            "id": 2,
+            "type": 4,
+            "title": "成功加入LM",
+            "simple": "LM",
+            "template": "您已经成功加入LM{name}",
+            "expire_time": 2592000
+        },
+        {
+            "id": 3,
+            "type": 1,
+            "title": "背包已满",
+            "simple": "背包",
+            "template": "由于您的背包已经满了，请清理背包后领取",
+            "expire_time": 2592000
+        }
+    ],
+    "forging": [
+        {
+            "id": 1,
+            "target": 203,
+            "need_item": [
+                3,
+                4,
+                5
+            ],
+            "need_num": [
+                100,
+                100,
+                100
+            ]
+        }
+    ]
+}
